@@ -35,7 +35,7 @@ ChromiumHtmlToPdf is Copyright (C)2017-2023 Kees van Spelde and is licensed unde
 
 ## Installing via NuGet
 
-[![NuGet](https://img.shields.io/nuget/v/ChromeHtmlToPdf.svg?style=flat-square)](https://www.nuget.org/packages/ChromeHtmlToPdf)
+[ [NuGet](https://img.shields.io/nuget/v/ChromeHtmlToPdf.svg?style=flat-square)](https://www.nuget.org/packages/ChromeHtmlToPdf)
 
 The easiest way to install ChromiumHtmlToPdf is via NuGet (Yes I know the nuget package has another name, this is because there is already a package with the new name I used).
 
@@ -246,7 +246,7 @@ RUN apt-get update && apt-get install -y \
 	google-chrome-stable \
 	--no-install-recommends \
 	&& apt-get purge --auto-remove -y curl gnupg \
-	&& rm -rf /var/lib/apt/lists/*
+	&& rm -rf /var/lib/apt/lists/ 
 
 # Chrome Driver
 RUN apt-get update && \
@@ -275,3 +275,4 @@ Core Team
 Have a bug or a feature request? [Please open a new issue](https://github.com/Sicos1977/ChromiumHtmlToPdf/issues).
 
 Before opening a new issue, please search for existing issues to avoid submitting duplicates.
+ 
